@@ -19,7 +19,7 @@ npm start
 - Add new task
 - Logout current user
 
-### Non-Functional
+#### Non-Functional
 - Currently no database connect and data is hardcoded
 ### Test UI input
 The hardcoded test user:
