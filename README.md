@@ -21,6 +21,11 @@ npm start
 
 ### Non-Functional
 - Currently no database connect and data is hardcoded
+### Test UI input
+The hardcoded test user:
+- Kiki
+- Jazz
+- Coco
 #### Tech stack
 - Javascript/HTML/CSS
 - Webpack
