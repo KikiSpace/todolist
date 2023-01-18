@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'MyFont';
+    src:
+            url("../assets/CoffeeLatte.ttf") format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src:
+            url("../assets/Inter.ttf") format('truetype');
+
+}
+
+.titleFrame {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+
+}
+
+.userTitle {
+    margin-left: 7%;
+    align-self: center;
+    font-family: MyFont;
+    color: darkkhaki;
+
+    font-weight: 700;
+    font-size: 24px;
+
+}
+.bigTitle {
+
+    align-self: center;
+    width: 236px;
+    height: 68px;
+    left: 50%;
+    top: 40%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #5E5E5E;
+
+}
+.logout {
+    /* Logout */
+
+    margin-right: 7%;
+    align-self: center;
+    width: 100px;
+    height: 29px;
+    left: 1015px;
+    top: 49px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #B47AEA;
+
+
+}
+.checkIcon {
+    /* Rectangle 4 */
+
+    box-sizing: border-box;
+
+
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    left: 263px;
+    top: 314px;
+
+    background: #FFFFFF;
+    border: 2px solid #1E9CEA;
+    border-radius: 5px;
+}
+
+.checkedIcon {
+
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    left: 263px;
+    top: 314px;
+
+    background: url("../assets/checkedIcon.png");
+    background-size: contain;
+    border: white;
+    border-radius: 5px;
+}
+
+.deleteIcon {
+    align-self: center;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    left: 263px;
+    top: 314px;
+
+    background: url("../assets/delete.png");
+    background-size: contain;
+    border: white;
+    border-radius: 5px;
+}
+
+.text {
+    align-self: center;
+
+    margin-left: 10px;
+    width: auto;
+    height: 29px;
+    left: 309px;
+    top: 290px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.listElementFrame {
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+
+}
+
+.taskItem {
+    align-self: flex-start;
+    margin-top: 10px;
+
+    margin-left: 35%;
+
+    display: flex;
+
+}
+
+.newTaskIcon {
+    align-self: flex-start;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    width: 210px;
+    height: 30px;
+    left: 476px;
+    top: 368px;
+    background: url("../assets/newTask.png");
+    background-size: contain;
+}
+
+.newTaskInput {
+    display: none;
+    align-self: flex-start;
+    margin-left: 37%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    padding: 2px;
+
+
+    width: 250px;
+    height: 45px;
+    left: 476px;
+    top: 368px;
+
+    border: 2px solid mediumpurple;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+

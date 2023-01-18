@@ -1,0 +1,4 @@
+/*
+For future database usage
+Current user data is hardcode in authenticate.js
+*/

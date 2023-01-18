@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Inter';
+    src:
+            url("../assets/Inter.ttf") format('truetype');
+
+}
+
+.elementFrame {
+    display: flex;
+    flex-direction: column;
+    margin: 7%;
+}
+
+.big-title {
+    align-self: center;
+    width: 268px;
+    height: 82px;
+    left: 454px;
+    top: 239px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+
+    color: #5E5E5E;
+}
+
+.middle-text {
+    align-self: center;
+    width: 397px;
+    height: 29px;
+    left: 389px;
+    top: 321px;
+
+    margin-bottom: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #5E5E5E;
+
+
+}
+.input-name::placeholder {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #C8C8C8;
+
+}
+.input-name {
+    align-self: center;
+    box-sizing: border-box;
+
+    padding: 2px;
+    margin: 10px;
+
+    width: 250px;
+    height: 45px;
+    left: 476px;
+    top: 368px;
+
+    border: 2px solid #1E9CEA;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+
+
+}
+
+.submitBtn {
+    align-self: center;
+    padding: 3px;
+    margin: 10px;
+    border: #B47AEA;
+
+    width: 144px;
+    height: 45px;
+    left: 504px;
+    top: 424px;
+
+    background: #B47AEA;
+    border-color: white;
+    border-radius: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+
+
+
+
+}
